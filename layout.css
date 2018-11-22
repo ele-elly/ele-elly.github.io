@@ -8,29 +8,7 @@ body {
     font-family: "verdana", "sans-serif";
 }
 
-.dropdown{
-    position:relative;
-    display: block;
-    
-}
-
-.dropdown-content{
-    position: relative;
-    display: none;
-    overflow: auto;
-    width: 100%;
-    z-index: 1;
-}
-
-
-
-.dropdown:hover .dropdown-content{
-    display:block;
-}
-
-
 /*Mette il logo in alto a sinistra*/
-
 .aParent{
     float: left;
     clear: none;
@@ -178,13 +156,11 @@ a:hover{
 
 .menu{
     margin-top: 150px;
-    overflow: hidden;
     background-color: #673F03;
-    border: 5px solid #673F03;
 }
 
 
-.menu a{
+.menu a {
     width:auto;
     height: auto;
     text-align: center;
