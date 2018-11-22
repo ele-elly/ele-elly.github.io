@@ -20,3 +20,6 @@ il loro codice non era soddisfacente per nulla.
 Ti chiedo per favore di suggerirmi modifiche, ma le vorrei fare io, in modo da poter imparare ancora.
 Quando sarà a posto, copierò il codice negli altri file.
 Per il resto è arrivato a una situazione non perfetta, ma soddisfacente.
+
+Sto facendo su prova1.html per non andare a modificare tutto il sito millemila volte. Qaundo funzionerà, lo copierò nei file giusti.
+
