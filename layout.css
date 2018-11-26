@@ -8,25 +8,6 @@ body {
     font-family: "verdana", "sans-serif";
 }
 
-.dropdown{
-    position:relative;
-    display: block;
-    
-}
-
-.dropdown-content{
-    position: relative;
-    display: none;
-    overflow: auto;
-    width: 100%;
-    z-index: 1;
-}
-
-
-
-.dropdown:hover .dropdown-content{
-    display:block;
-    }
 
 
 /*Mette il logo in alto a sinistra*/
@@ -176,33 +157,53 @@ a:hover{
 
 
 
-.menu{
-    margin-top: 150px;
-    overflow: hidden;
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
     background-color: #673F03;
-   border: 5px solid #673F03;
-  }
+    border: 5px solid #673F03;
+    text-align: center;
+    clear: both;
+}
 
+.menu li{
+    float: left;
+    display: inline-block;
+}
 
-.menu a{
-        width:auto;
-    height: auto;
-        text-align: center;
-    padding:10px;
-        color: #F7EBD8;
-        background: #673F03;
-    font-size: 40px;
-    text-decoration: none;
-    float:left;
-    }
+.menu li a{
+    border:5px;
+    padding:10px 50px;
+    display:block;
+    background:#673F03;
+    color:#F7EBD8;
+    text-decoration:none;
+    font-size:40px;
+}
 
-.menu a:hover{
+.menu li a:hover{
     background:#F7EBD8;
-    color: #673F03;
-    }
+    color:#673F03;
+}
 
-.menu a.icon{
-    display: none;
+.menu li ul{
+    position: absolute;
+    width: inherit;
+    display:none;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+.menu ul li ul li{
+    display:block;
+}
+
+.menu li.icon{
+    display:none;
 }
 
 
@@ -232,27 +233,26 @@ a:hover{
     font-family:"logo", sans-serif;
 }
 
-.menu a:not(:first-child)
-    {
+.menu ul li:not(:first-child){
         display:none;
-    }
+}
     
-    .menu a.icon{
-        float: right;
-        display: block;
-    }
+.menu ul li.icon{
+    float: right;
+    display: block;
+}
     
-       .menu.responsive {position: relative;}
-  .menu.responsive a.icon {
+.menu.responsive {position: relative;}
+.menu.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .menu.responsive a {
+.menu ul li a{
     float: none;
     display: block;
     text-align: left;
-  }
+}
 
     
     h1{
@@ -325,7 +325,8 @@ a{
     font-family:"logo", sans-serif;
     
 }
-    a:hover{
+
+a:hover{
     color:#F7EBD8;
     background:#673F03;
 }
@@ -368,11 +369,11 @@ li{
         float:none;
         }
     
-.menu a{
+.menu ul li{
     display:none;
     }
    
-    .menu a.icon{
+.menu ul li.icon{
         display:block;
         float:right;
     }
