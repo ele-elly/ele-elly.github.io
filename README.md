@@ -1,25 +1,14 @@
 # elly-beratung
 elly-beratung
 
-Stavo provando a fare un menu dropdown, seguendo le indicazioni di w3school.
+Nel file Sortiment ho:
+-sistemato l'indentazione
+-cambiato il menù.
 
-Sono presenti 3 file:
--prova1.html, dove c'è il codice del dropdown.
--layout.css, dove c'è il layout di tutto il sito (compreso il menu, che fino ad ora funzionava).
--prova.css, dove c'è il layout del dropdown.
+Ora il dropdown va e va, in parte, anche la questione del ridimensionamento schermo.
 
-Questo è il risultato migliore che sono riuscita ad ottenere. 
-I problemi sono:
+Problemi attuali:
+-i sottomenù non sono larghi come il link da cui dipendono
+-non funziona il javascript (copiato rinominando solo le variabili, prima andava). Ho cercato di sistemare .menu.responsive, ma non compare nulla quando clicko sul burger.
 
--I link nel dropdown non sono incolonnati ma allineati (che mi andrebbe anche bene, se poi non facesse altro casino dopo).
--Contacts nel codice è l'ultimo link, ma quando viene mostrato il dropdown si sposta sotto e non resta a accanto al link che apre il dropdown.
-
-Ripeto, ho usato il codice degli esempi di w3school, modificandolo finchè non ho ottenuto un risultato soddisfacente, perchè usando direttamente
-il loro codice non era soddisfacente per nulla.
-
-Ti chiedo per favore di suggerirmi modifiche, ma le vorrei fare io, in modo da poter imparare ancora.
-Quando sarà a posto, copierò il codice negli altri file.
-Per il resto è arrivato a una situazione non perfetta, ma soddisfacente.
-
-Sto facendo su prova1.html per non andare a modificare tutto il sito millemila volte. Qaundo funzionerà, lo copierò nei file giusti.
-
+Però è molto meglio di prima!!!
