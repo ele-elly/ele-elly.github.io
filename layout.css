@@ -248,11 +248,12 @@ a:hover{
     right: 0;
     top: 0;
   }
-.menu ul li a{
+.menu.responsive ul li a{
     float: none;
     display: block;
     text-align: left;
 }
+    
 
     
     h1{
@@ -377,6 +378,5 @@ li{
         display:block;
         float:right;
     }
-    
-   
+       
 }
