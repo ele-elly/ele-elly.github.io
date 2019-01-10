@@ -16,7 +16,7 @@
 .menu li a{
     border:5px;
     padding:10px 50px;
-    display:block;
+    display: block;
     background:#673F03;
     color:#F7EBD8;
     text-decoration:none;
@@ -30,8 +30,8 @@
 
 .menu li ul{
     position: absolute;
-    width: inherit;
-    display:none;
+    width: auto;
+    display: none;
 }
 
 .menu li:hover ul{
@@ -40,8 +40,9 @@
 
 
 .menu ul li ul li{
-    display:block;
+    display: block;
 }
+
 
 .menu li.icon{
     display:none;
@@ -58,17 +59,22 @@
         display: block;
     }
     
-    .menu.responsive {position: relative;}
-    .menu.responsive .icon {
+    .menu.responsive {
+        position: relative;
+    }
+    
+    .menu.responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    .menu ul li a{
-        float: none;
-        display: block;
-        text-align: left;
-    }
+    
+    .menu.responsive ul li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    
 }
 
 @media screen and (max-width: 600px) 
@@ -81,11 +87,11 @@
         align-items: center;
         margin: 30px;
         float:none;
-        }
+     }
     
     .menu ul li{
         display:none;
-        }
+    }
    
     .menu ul li.icon{
         display:block;
